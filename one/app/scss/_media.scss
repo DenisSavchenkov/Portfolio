@@ -1,0 +1,236 @@
+@media(max-width:1140px){
+    .top-inner{
+        flex-direction: column;
+        align-items: center;
+    }
+    .top-info{
+        margin-bottom: 50px;
+        margin-right: 0;
+        max-width: 100%;
+        text-align: center;
+    }
+    .top-box{
+        justify-content: center;
+    }
+    .top{
+        padding: 0;
+    }
+    .information-inner{
+        flex-direction: column;
+    }
+    .information-img{
+        margin-bottom: 50px;
+        img{
+            width: 100%;
+        }
+    }
+}
+
+@media(max-width:1000px){
+    .traffic-inner {
+        flex-direction: column;
+    }
+    .traffic {
+         padding: 0px;
+    }
+    .traffic-info{
+        margin-bottom: 50px;
+    }
+}
+
+@media(max-width:990px){
+    .choice-row{
+        justify-content: center;
+    }
+    .choice-item {
+    }
+    .ways-row {
+        flex-direction: column;
+        align-items: center;
+    }
+    .ways-item {
+        margin-bottom: 40px;
+    }
+    .investing-inner{
+        flex-direction: column;
+        align-items: center;
+    }
+    .investing-info{
+        margin-bottom: 50px;
+    }
+    .investing-inner__img{
+        img{
+            width: 100%;
+        }
+    }
+    .connection-inner{
+        max-width: 600px;
+    }
+}
+
+@media (max-width:820px){
+    .header-inner{
+        flex-wrap: wrap;
+    }
+    .header__menu{
+        margin: 0;
+        order: 1;
+    }
+    .menu-list{
+        display: none;
+        position: absolute;
+        top: 40px;
+        left: 0;
+        right: 0;
+        background: linear-gradient(180deg, #040D3E, #000000);
+        li{
+            text-align: center;
+            margin: 5px 25px;
+        }
+        a{
+            color: $orange;
+        }
+        a:hover::before{
+            display: none;
+        }
+    }
+    .menu-burger{
+        display: block;
+    }
+
+    .menu-list__item{
+        a{
+            padding: 10px 0;
+            display: block !important;
+            font-size: 15px;
+        }
+    }
+}
+
+@media (min-width:820px){
+    .menu-list{
+        display: flex !important;
+    }
+}
+
+
+
+@media(max-width:670px){
+    .choice-item {
+        max-width: 500px;
+    }
+    .brends {
+        padding-bottom: 50px;
+    }
+    .traffic-inner__img{
+        img{
+            width: 100%;
+        }
+    }
+    .ways__title{
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .creating__title{
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .creating-img{
+        display: none;
+    }
+    .ways{
+        padding: 0;
+    }
+    .creating{
+        padding: 50px 0;
+    }
+    .connection-inner{
+        max-width: 430px;
+    }
+}
+
+@media(max-width:550px){
+    .information-columns{
+        flex-direction: column;
+        align-items: center;
+    }
+    .information-item{
+        margin-bottom: 20px;
+    }
+    .information-box {
+        text-align: center;
+    }
+    .footer-top{
+        flex-direction: column;
+    }
+    .footer-column{
+        margin: 0 15px 20px;
+    }
+    .footer-row{
+        flex-wrap: wrap;
+        margin-bottom: 30px;
+    }
+    .footer-top {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width:480px){
+    .connection-inner{
+        max-width: 379px;
+    }
+    .form-email{
+        margin-bottom: 10px;
+        border-radius: 5px;
+        width: 210px;
+    }
+    .form-btn {
+        margin-left: -5px;
+
+    }
+}
+
+@media (max-width:457px){
+    .header__menu{
+        order: 0;
+    }
+    .header__btns{
+        margin-top: 40px;
+    }
+    .top-info__btn {
+        display: block;
+        text-align: center;
+        margin-bottom: 15px;
+        width: 100%;
+    }
+    .top-info__link {
+        display: block;
+        text-align: center;
+    }
+    .top-info__title{
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .top-box{
+        flex-direction: column;
+        align-items: center;
+    }
+    .top-info__title{
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .traffic-info__title{
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .investing-info__title{
+        font-size: 30px;
+        line-height: 35px;
+    }
+}
+
+@media (max-width:420px){
+    .connection-inner{
+      max-width: 305px;
+    }
+}
